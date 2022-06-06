@@ -1,0 +1,19 @@
+en:
+  vagrant_wfs:
+    already_status: |-
+      The machine is already %{status}.
+    ready: |-
+      Machine is booted and ready for use!
+    starting: |-
+      Starting the instance...
+    stopping: |-
+      Stopping the instance...
+    waiting_for_ready: |-
+      Waiting for instance to become "ready"...
+    waiting_for_ssh: |-
+      Waiting for SSH to become available...
+    config:
+      invalid_event: |-
+        '%{status}' is not a valid event (please select from '%{valid_events}').
+    errors:
+    states:
